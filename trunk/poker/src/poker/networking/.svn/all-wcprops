@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/290/trunk/poker/src/poker/networking
+END
+IMessageSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/290/trunk/poker/src/poker/networking/IMessageSocket.java
+END
+IClientSocketListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/290/trunk/poker/src/poker/networking/IClientSocketListener.java
+END
+ClientMessageSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/290/trunk/poker/src/poker/networking/ClientMessageSocket.java
+END
+MessageSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/290/trunk/poker/src/poker/networking/MessageSocket.java
+END
+IMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/290/trunk/poker/src/poker/networking/IMessage.java
+END
+PokerMessageSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/290/trunk/poker/src/poker/networking/PokerMessageSocket.java
+END
+IServerSocketListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/290/trunk/poker/src/poker/networking/IServerSocketListener.java
+END
+ServerMessageSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/290/trunk/poker/src/poker/networking/ServerMessageSocket.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/290/trunk/poker/src/poker/networking/Message.java
+END

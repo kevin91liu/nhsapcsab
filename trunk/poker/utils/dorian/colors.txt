@@ -1,0 +1,1 @@
+{"hearts": "#aa0000", "diamonds": "#aa0000", "clubs": "#000000", "spades": "#000000"}

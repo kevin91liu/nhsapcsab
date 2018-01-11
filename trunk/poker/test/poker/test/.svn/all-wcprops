@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/301/trunk/poker/test/poker/test
+END
+CardGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/301/trunk/poker/test/poker/test/CardGenerator.java
+END
+MoneyTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/290/trunk/poker/test/poker/test/MoneyTest.java
+END
+CardTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/290/trunk/poker/test/poker/test/CardTest.java
+END
+HandTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/300/trunk/poker/test/poker/test/HandTest.java
+END

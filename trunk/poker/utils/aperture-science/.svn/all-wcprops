@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/290/trunk/poker/utils/aperture-science
+END
+bounds.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/290/trunk/poker/utils/aperture-science/bounds.txt
+END
+colors.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/290/trunk/poker/utils/aperture-science/colors.txt
+END
+suit.svg
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/290/trunk/poker/utils/aperture-science/suit.svg
+END
+pattern-generator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/290/trunk/poker/utils/aperture-science/pattern-generator.rb
+END
+card-face.svg
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/290/trunk/poker/utils/aperture-science/card-face.svg
+END
+card-back.svg
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/290/trunk/poker/utils/aperture-science/card-back.svg
+END
+number.svg
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/290/trunk/poker/utils/aperture-science/number.svg
+END

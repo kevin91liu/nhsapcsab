@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project basedir="." default="jar" name="NHS CS AB Poker">
+  <description>
+    A Java Poker framework created collaboratively by students in
+    Newport's Computer Science AB class.
+  </description>
+
+  <property name="classes.dir" value="build" />
+  <property name="src.dir" value="src" />
+  <property name="lib.dir" value="lib" />
+  <patternset id="java.src.pattern">
+    <exclude name="**/*Test*" />
+    <include name="**/*.java" />
+  </patternset>
+
+  <!-- ############ Targets: ############ -->
+
+  <target name="clean">
+    <delete dir="${classes.dir}" />
+  </target>
+
+  <target name="init">
+    <mkdir dir="${classes.dir}" />
+    <mkdir dir="${lib.dir}" />
+  </target>
+
+  <target name="compile" depends="init">
+    <javac debug="true" destdir="${classes.dir}" encoding="UTF-8"
+      includes="${lib.dir}/junit.jar" >
+      <src path="${src.dir}" />
+      <patternset refid="java.src.pattern" />
+    </javac>
+  </target>
+
+  <target name="jar" depends="compile">
+    <jar destfile="${lib.dir}/poker.jar">
+      <fileset dir="${classes.dir}">
+        <exclude name="${classes.dir}/**/*Test*" />
+      </fileset>
+      <manifest>
+        <attribute name="Built-By" value="${user.name}"/>
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="test" depends="jar">
+    <!-- I'm not entirely sure how to do this, but it involves junit. -->
+  </target>
+</project>

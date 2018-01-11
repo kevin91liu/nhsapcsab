@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/297/trunk/poker/utils/dorian
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/290/trunk/poker/utils/dorian/README.txt
+END
+colors.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/290/trunk/poker/utils/dorian/colors.txt
+END
+suit.svg
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/290/trunk/poker/utils/dorian/suit.svg
+END
+pattern-generator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/290/trunk/poker/utils/dorian/pattern-generator.rb
+END
+card-face.svg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/297/trunk/poker/utils/dorian/card-face.svg
+END
+card-back.svg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/297/trunk/poker/utils/dorian/card-back.svg
+END
+number.svg
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/290/trunk/poker/utils/dorian/number.svg
+END
+bounds.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/290/trunk/poker/utils/dorian/bounds.txt
+END

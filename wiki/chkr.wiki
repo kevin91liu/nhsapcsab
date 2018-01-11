@@ -1,0 +1,82 @@
+{{{
+
+/*
+ID: kevin911
+LANG: JAVA
+TASK: chkr
+*/
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.StringTokenizer;
+
+public class chkr 
+{
+	private static final byte MINUS = 0x01;
+	private static final byte PLUS = 0x02;
+	private static final byte KING = 0x04;
+	private static final byte OPP = 0x08;
+	private static byte[][] board;
+	public static void main(String[] args) throws IOException
+	{
+		BufferedReader f = new BufferedReader(new FileReader("chkr.in"));
+	    PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("chkr.out")));
+	    StringTokenizer st = new StringTokenizer(f.readLine());
+	    
+	    int N = Integer.parseInt(st.nextToken());
+	    int[][] kings_xy = new int[N*N][2];
+	    int king_counter = 0;
+	    board = new byte[N][N];
+	    for (int a = 0; a < N; a++)
+	    {
+	    	int cur = 0;
+	    	st = new StringTokenizer(f.readLine());
+	    	while (st.hasMoreTokens())
+	    	{
+	    		switch (st.nextToken().charAt(0))
+	    		{
+	    		case '-': board[a][cur] = MINUS; cur++; break;
+	    		case '+': board[a][cur] = PLUS; cur++; break;
+	    		case 'K': board[a][cur] = KING; cur++; 
+	    		kings_xy[king_counter][0] = a;
+	    		kings_xy[king_counter][1] = cur;
+	    		king_counter++;
+	    		break;
+	    		default: board[a][cur] = OPP; cur++;
+	    		}
+	    	}
+	    }
+	    
+	    out.close();
+	    System.exit(0);
+	}
+	
+	public static void checkKing()
+	{
+		
+	}
+	
+	public int[][] getAdjOpp(int[] xy)
+	{
+		
+	}
+	
+	public int[][] getAdj(int[] xy)
+	{
+		int[][] adjs = new int[4][2];
+		int x = xy[0]; int y = xy[1];
+		int x1 = x+1; int y1 = y+1; 
+		int x2 = x+1; int y2 = y-1;
+		int x3 = x-1; int y3 = y+1;
+		int x4 = x-1; int y4 = y-1;
+		
+		if(x >= 0 && )
+	}
+
+}
+
+
+}}}
